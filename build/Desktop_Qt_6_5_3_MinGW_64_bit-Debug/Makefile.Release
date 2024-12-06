@@ -780,7 +780,13 @@ release/Edge.o: ../../Edge.cpp ../../Edge.h \
 		C:/Qt/6.5.3/mingw_64/include/QtGui/QPainterPath \
 		C:/Qt/6.5.3/mingw_64/include/QtGui/QPen \
 		C:/Qt/6.5.3/mingw_64/include/QtGui/qpen.h \
-		C:/Qt/6.5.3/mingw_64/include/QtGui/qbrush.h
+		C:/Qt/6.5.3/mingw_64/include/QtGui/qbrush.h \
+		C:/Qt/6.5.3/mingw_64/include/QtGui/QPainter \
+		C:/Qt/6.5.3/mingw_64/include/QtGui/qpainter.h \
+		C:/Qt/6.5.3/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.5.3/mingw_64/include/QtGui/qfontinfo.h \
+		C:/Qt/6.5.3/mingw_64/include/QtGui/qfont.h \
+		C:/Qt/6.5.3/mingw_64/include/QtGui/qfontmetrics.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\Edge.o ..\..\Edge.cpp
 
 release/Mapview.o: ../../Mapview.cpp ../../MapView.h \
@@ -1088,7 +1094,14 @@ release/Node.o: ../../Node.cpp ../../Node.h \
 		C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsSceneMouseEvent \
 		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicssceneevent.h \
 		C:/Qt/6.5.3/mingw_64/include/QtGui/QBrush \
-		C:/Qt/6.5.3/mingw_64/include/QtGui/qbrush.h
+		C:/Qt/6.5.3/mingw_64/include/QtGui/qbrush.h \
+		C:/Qt/6.5.3/mingw_64/include/QtGui/QPainter \
+		C:/Qt/6.5.3/mingw_64/include/QtGui/qpainter.h \
+		C:/Qt/6.5.3/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.5.3/mingw_64/include/QtGui/qpen.h \
+		C:/Qt/6.5.3/mingw_64/include/QtGui/qfontinfo.h \
+		C:/Qt/6.5.3/mingw_64/include/QtGui/qfont.h \
+		C:/Qt/6.5.3/mingw_64/include/QtGui/qfontmetrics.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\Node.o ..\..\Node.cpp
 
 release/main.o: ../../main.cpp ../../mainwindow.h \
