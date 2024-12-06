@@ -1500,7 +1500,12 @@ debug/mainwindow.o: ../../mainwindow.cpp ../../mainwindow.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qfile.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qfiledevice.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/QTextStream \
-		C:/Qt/6.5.3/mingw_64/include/QtGui/QPixmap
+		C:/Qt/6.5.3/mingw_64/include/QtGui/QPixmap \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qtimer.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h \
+		C:/Qt/6.5.3/mingw_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qmessagebox.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\mainwindow.o ..\..\mainwindow.cpp
 
 debug/moc_Mapview.o: debug/moc_Mapview.cpp 
